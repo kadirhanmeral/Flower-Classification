@@ -16,7 +16,7 @@ namespace proje2
         {
             public void dosyaokuma(double[,] veridizi)  //dosya okuma işlemi
             {
-                string[] data = System.IO.File.ReadAllLines(@"C:\Users\kadir\Desktop\iris.txt");
+                string[] data = System.IO.File.ReadAllLines(@"iris.txt");
                 for (int i = 0; i < data.Length; i++)
                 {
                     string veri = data[i];
